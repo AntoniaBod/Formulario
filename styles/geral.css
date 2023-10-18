@@ -1,0 +1,48 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    background-color: rgb(54, 54, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 15pt;}
+body h2{
+    background-color:green;
+    font: bold;
+}
+
+form{
+    width: 40%;
+    padding: 25px;
+    background-color: rgb(109, 109, 170);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    border-radius: 5px;
+}
+::placeholder{
+    text-align: center;
+}
+input{
+    border-radius: 5px;}
+#nome{
+    text-align: center;}
+#email{
+    text-align: center;}
+#senha{
+    text-align: center;}
+#repita{
+    text-align: center;}
+#mensagem{
+    text-align: justify;
+    border-radius: 5px;}
+button{
+    background-color:  green;
+    border-radius: 5px;
+}
